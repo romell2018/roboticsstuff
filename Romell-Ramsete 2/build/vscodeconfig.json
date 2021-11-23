@@ -1,0 +1,438 @@
+[
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "debug",
+    "cppPath": "/Users/romellmertis/wpilib/2020/roborio/bin/arm-frc2020-linux-gnueabi-g++",
+    "cPath": "/Users/romellmertis/wpilib/2020/roborio/bin/arm-frc2020-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/f4d7e8fc4a91f28efd7da3a5b1b37901/wpilibc-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/be104538eea1bf44141290293cceb580/ntcore-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/6ab6933f99652973d1e835188a5a8d2e/hal-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/1210890c03321845c6fdcbb99c9f4c3f/wpiutil-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/f79e68683da0f4ef0b960a569461d076/chipobject-2020.10.1-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/fa310a8b61cefbafd1665e0a4245221f/netcomm-2020.10.1-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/e3aab298596a09cd0c4fc550a75a0898/visa-2020.10.1-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/78ac3683396469f0294b6579171e0819/cameraserver-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/4a7fa6b20d92a4eee0527c28cd1ab556/cscore-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/24dfc8df50df283520958f5e317474f6/opencv-cpp-3.4.7-2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/b8eadb4015a96a38f5a1577664d737bc/navx-cpp-3.1.400-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/d140157b8b5bb763e272250148045b97/wpiapi-cpp-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/7d2c5a9a1964155d4dec0ebb4970b007/api-cpp-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/ea336256a72a6944a62b9ab5aa23198c/cci-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/cee31c2c10acdf3164714838fa8938e1/diagnostics-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/64a58d12fa5b5a267e605a7e2d0b0c37/canutils-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/7f307ae5b782d4a951d5be21b039c40c/platform-stub-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/a2c604e82900801ed8ddacd595dc6ad1/core-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/cbefd8c65743621a912f87b71437ef65/wpilibNewCommands-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/Desktop/Romell-Ramsete/src/main/include/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/d173088016a789645af45d5cf040a9d2/wpilibc-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/70bcd5f122f7089e17f72c5c1883dcde/ntcore-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/aa35f06784ba14432da13d289aa57f01/hal-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/1ea15d0b4ca022551a735f54abe848a4/wpiutil-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/737d21f927ebc81676d924f531d42db1/cameraserver-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/0aa19287e70efb8c378198e17d077866/cscore-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/40811db36a61789179916ece6f411060/opencv-cpp-3.4.7-2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/08e4935fb4466d7c619549ccf7ef3d01/navx-cpp-3.1.400-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/e9348c5efa67ea78ac013897eb9fa0dd/wpilibNewCommands-cpp-2020.2.2-sources/"
+    ],
+    "allLibSources": [
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/d173088016a789645af45d5cf040a9d2/wpilibc-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/70bcd5f122f7089e17f72c5c1883dcde/ntcore-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/aa35f06784ba14432da13d289aa57f01/hal-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/1ea15d0b4ca022551a735f54abe848a4/wpiutil-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/737d21f927ebc81676d924f531d42db1/cameraserver-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/0aa19287e70efb8c378198e17d077866/cscore-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/40811db36a61789179916ece6f411060/opencv-cpp-3.4.7-2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/08e4935fb4466d7c619549ccf7ef3d01/navx-cpp-3.1.400-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/e9348c5efa67ea78ac013897eb9fa0dd/wpilibNewCommands-cpp-2020.2.2-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/f4d7e8fc4a91f28efd7da3a5b1b37901/wpilibc-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/be104538eea1bf44141290293cceb580/ntcore-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/6ab6933f99652973d1e835188a5a8d2e/hal-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/1210890c03321845c6fdcbb99c9f4c3f/wpiutil-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/f79e68683da0f4ef0b960a569461d076/chipobject-2020.10.1-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/fa310a8b61cefbafd1665e0a4245221f/netcomm-2020.10.1-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/e3aab298596a09cd0c4fc550a75a0898/visa-2020.10.1-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/78ac3683396469f0294b6579171e0819/cameraserver-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/4a7fa6b20d92a4eee0527c28cd1ab556/cscore-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/24dfc8df50df283520958f5e317474f6/opencv-cpp-3.4.7-2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/b8eadb4015a96a38f5a1577664d737bc/navx-cpp-3.1.400-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/d140157b8b5bb763e272250148045b97/wpiapi-cpp-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/7d2c5a9a1964155d4dec0ebb4970b007/api-cpp-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/ea336256a72a6944a62b9ab5aa23198c/cci-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/cee31c2c10acdf3164714838fa8938e1/diagnostics-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/64a58d12fa5b5a267e605a7e2d0b0c37/canutils-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/7f307ae5b782d4a951d5be21b039c40c/platform-stub-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/a2c604e82900801ed8ddacd595dc6ad1/core-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/cbefd8c65743621a912f87b71437ef65/wpilibNewCommands-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/Desktop/Romell-Ramsete/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/romellmertis/Desktop/Romell-Ramsete/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/romellmertis/Desktop/Romell-Ramsete/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-g",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-Og"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/f4d7e8fc4a91f28efd7da3a5b1b37901/wpilibc-cpp-2020.2.2-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/be104538eea1bf44141290293cceb580/ntcore-cpp-2020.2.2-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/6ab6933f99652973d1e835188a5a8d2e/hal-cpp-2020.2.2-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/1210890c03321845c6fdcbb99c9f4c3f/wpiutil-cpp-2020.2.2-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/f79e68683da0f4ef0b960a569461d076/chipobject-2020.10.1-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/fa310a8b61cefbafd1665e0a4245221f/netcomm-2020.10.1-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/e3aab298596a09cd0c4fc550a75a0898/visa-2020.10.1-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/78ac3683396469f0294b6579171e0819/cameraserver-cpp-2020.2.2-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/4a7fa6b20d92a4eee0527c28cd1ab556/cscore-cpp-2020.2.2-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/24dfc8df50df283520958f5e317474f6/opencv-cpp-3.4.7-2-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/b8eadb4015a96a38f5a1577664d737bc/navx-cpp-3.1.400-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/d140157b8b5bb763e272250148045b97/wpiapi-cpp-5.17.4-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/7d2c5a9a1964155d4dec0ebb4970b007/api-cpp-5.17.4-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/ea336256a72a6944a62b9ab5aa23198c/cci-5.17.4-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/cee31c2c10acdf3164714838fa8938e1/diagnostics-5.17.4-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/64a58d12fa5b5a267e605a7e2d0b0c37/canutils-5.17.4-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/7f307ae5b782d4a951d5be21b039c40c/platform-stub-5.17.4-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/a2c604e82900801ed8ddacd595dc6ad1/core-5.17.4-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/cbefd8c65743621a912f87b71437ef65/wpilibNewCommands-cpp-2020.2.2-headers/",
+          "/Users/romellmertis/Desktop/Romell-Ramsete/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/romellmertis/Desktop/Romell-Ramsete/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-g",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/romellmertis/Desktop/Romell-Ramsete/src/main/include/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-g",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  },
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "release",
+    "cppPath": "/Users/romellmertis/wpilib/2020/roborio/bin/arm-frc2020-linux-gnueabi-g++",
+    "cPath": "/Users/romellmertis/wpilib/2020/roborio/bin/arm-frc2020-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/f4d7e8fc4a91f28efd7da3a5b1b37901/wpilibc-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/be104538eea1bf44141290293cceb580/ntcore-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/6ab6933f99652973d1e835188a5a8d2e/hal-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/1210890c03321845c6fdcbb99c9f4c3f/wpiutil-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/f79e68683da0f4ef0b960a569461d076/chipobject-2020.10.1-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/fa310a8b61cefbafd1665e0a4245221f/netcomm-2020.10.1-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/e3aab298596a09cd0c4fc550a75a0898/visa-2020.10.1-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/78ac3683396469f0294b6579171e0819/cameraserver-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/4a7fa6b20d92a4eee0527c28cd1ab556/cscore-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/24dfc8df50df283520958f5e317474f6/opencv-cpp-3.4.7-2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/b8eadb4015a96a38f5a1577664d737bc/navx-cpp-3.1.400-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/d140157b8b5bb763e272250148045b97/wpiapi-cpp-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/7d2c5a9a1964155d4dec0ebb4970b007/api-cpp-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/ea336256a72a6944a62b9ab5aa23198c/cci-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/cee31c2c10acdf3164714838fa8938e1/diagnostics-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/64a58d12fa5b5a267e605a7e2d0b0c37/canutils-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/7f307ae5b782d4a951d5be21b039c40c/platform-stub-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/a2c604e82900801ed8ddacd595dc6ad1/core-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/cbefd8c65743621a912f87b71437ef65/wpilibNewCommands-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/Desktop/Romell-Ramsete/src/main/include/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/d173088016a789645af45d5cf040a9d2/wpilibc-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/70bcd5f122f7089e17f72c5c1883dcde/ntcore-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/aa35f06784ba14432da13d289aa57f01/hal-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/1ea15d0b4ca022551a735f54abe848a4/wpiutil-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/737d21f927ebc81676d924f531d42db1/cameraserver-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/0aa19287e70efb8c378198e17d077866/cscore-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/40811db36a61789179916ece6f411060/opencv-cpp-3.4.7-2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/08e4935fb4466d7c619549ccf7ef3d01/navx-cpp-3.1.400-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/e9348c5efa67ea78ac013897eb9fa0dd/wpilibNewCommands-cpp-2020.2.2-sources/"
+    ],
+    "allLibSources": [
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/d173088016a789645af45d5cf040a9d2/wpilibc-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/70bcd5f122f7089e17f72c5c1883dcde/ntcore-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/aa35f06784ba14432da13d289aa57f01/hal-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/1ea15d0b4ca022551a735f54abe848a4/wpiutil-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/737d21f927ebc81676d924f531d42db1/cameraserver-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/0aa19287e70efb8c378198e17d077866/cscore-cpp-2020.2.2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/40811db36a61789179916ece6f411060/opencv-cpp-3.4.7-2-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/08e4935fb4466d7c619549ccf7ef3d01/navx-cpp-3.1.400-sources/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/e9348c5efa67ea78ac013897eb9fa0dd/wpilibNewCommands-cpp-2020.2.2-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/f4d7e8fc4a91f28efd7da3a5b1b37901/wpilibc-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/be104538eea1bf44141290293cceb580/ntcore-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/6ab6933f99652973d1e835188a5a8d2e/hal-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/1210890c03321845c6fdcbb99c9f4c3f/wpiutil-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/f79e68683da0f4ef0b960a569461d076/chipobject-2020.10.1-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/fa310a8b61cefbafd1665e0a4245221f/netcomm-2020.10.1-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/e3aab298596a09cd0c4fc550a75a0898/visa-2020.10.1-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/78ac3683396469f0294b6579171e0819/cameraserver-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/4a7fa6b20d92a4eee0527c28cd1ab556/cscore-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/24dfc8df50df283520958f5e317474f6/opencv-cpp-3.4.7-2-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/b8eadb4015a96a38f5a1577664d737bc/navx-cpp-3.1.400-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/d140157b8b5bb763e272250148045b97/wpiapi-cpp-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/7d2c5a9a1964155d4dec0ebb4970b007/api-cpp-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/ea336256a72a6944a62b9ab5aa23198c/cci-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/cee31c2c10acdf3164714838fa8938e1/diagnostics-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/64a58d12fa5b5a267e605a7e2d0b0c37/canutils-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/7f307ae5b782d4a951d5be21b039c40c/platform-stub-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/a2c604e82900801ed8ddacd595dc6ad1/core-5.17.4-headers/",
+      "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/cbefd8c65743621a912f87b71437ef65/wpilibNewCommands-cpp-2020.2.2-headers/",
+      "/Users/romellmertis/Desktop/Romell-Ramsete/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/romellmertis/Desktop/Romell-Ramsete/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/romellmertis/Desktop/Romell-Ramsete/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-g",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-O2"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/f4d7e8fc4a91f28efd7da3a5b1b37901/wpilibc-cpp-2020.2.2-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/be104538eea1bf44141290293cceb580/ntcore-cpp-2020.2.2-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/6ab6933f99652973d1e835188a5a8d2e/hal-cpp-2020.2.2-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/1210890c03321845c6fdcbb99c9f4c3f/wpiutil-cpp-2020.2.2-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/f79e68683da0f4ef0b960a569461d076/chipobject-2020.10.1-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/fa310a8b61cefbafd1665e0a4245221f/netcomm-2020.10.1-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/e3aab298596a09cd0c4fc550a75a0898/visa-2020.10.1-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/78ac3683396469f0294b6579171e0819/cameraserver-cpp-2020.2.2-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/4a7fa6b20d92a4eee0527c28cd1ab556/cscore-cpp-2020.2.2-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/24dfc8df50df283520958f5e317474f6/opencv-cpp-3.4.7-2-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/b8eadb4015a96a38f5a1577664d737bc/navx-cpp-3.1.400-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/d140157b8b5bb763e272250148045b97/wpiapi-cpp-5.17.4-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/7d2c5a9a1964155d4dec0ebb4970b007/api-cpp-5.17.4-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/ea336256a72a6944a62b9ab5aa23198c/cci-5.17.4-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/cee31c2c10acdf3164714838fa8938e1/diagnostics-5.17.4-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/64a58d12fa5b5a267e605a7e2d0b0c37/canutils-5.17.4-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/7f307ae5b782d4a951d5be21b039c40c/platform-stub-5.17.4-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/a2c604e82900801ed8ddacd595dc6ad1/core-5.17.4-headers/",
+          "/Users/romellmertis/.gradle/caches/transforms-2/files-2.1/cbefd8c65743621a912f87b71437ef65/wpilibNewCommands-cpp-2020.2.2-headers/",
+          "/Users/romellmertis/Desktop/Romell-Ramsete/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/romellmertis/Desktop/Romell-Ramsete/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-g",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/romellmertis/Desktop/Romell-Ramsete/src/main/include/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-g",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  }
+]
